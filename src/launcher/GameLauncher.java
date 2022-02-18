@@ -18,7 +18,11 @@ public class GameLauncher {
 
         Random rand = new Random();
 
-        do {
+        noGanador = true;
+        if (!juego.esJugable()) {
+            System.out.println("Deben haber al menos 2 jugadores");
+        }
+        while (juego.esJugable() && noGanador) {
 
             juego.tirarDado(rand.nextInt(5) + 1);
 
@@ -28,9 +32,7 @@ public class GameLauncher {
                 noGanador = juego.fueRespuestaCorrecta();
             }
 
-
-
-        } while (noGanador);
+        }
 
     }
 }
