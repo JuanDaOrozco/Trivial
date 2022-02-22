@@ -15,12 +15,18 @@ public class GameLauncher {
         juego.agregar("Maria");
         juego.agregar("Juan");
         juego.agregar("Antonio");
+        juego.agregar("Sara");
+        juego.agregar("Rafael");
+
+
+
 
         Random rand = new Random();
 
         noGanador = true;
-        if (!juego.esJugable()) {
-            System.out.println("Deben haber al menos 2 jugadores");
+        boolean esJugable = juego.esJugable();
+        if (!esJugable) {
+            System.out.println("Deben haber al menos 2 jugadores y 6 como mucho");
         }
         while (juego.esJugable() && noGanador) {
 

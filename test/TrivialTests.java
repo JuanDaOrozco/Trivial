@@ -14,7 +14,13 @@ public class TrivialTests {
     @Test
     public void minimoDosJugadores() {
         Game trivial = new Game();
-        trivial.esJugable();
-        Assertions.assertTrue(true);
+        boolean esJugable = trivial.esJugable();
+        Assertions.assertTrue(esJugable);
+    }
+    @Test
+    public void maximoSeisJugadores() {
+        Game trivial = new Game();
+        boolean esJugable = trivial.esJugable();
+        Assertions.assertTrue(esJugable);
     }
 }
