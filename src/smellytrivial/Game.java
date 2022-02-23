@@ -119,16 +119,19 @@ public class Game {
         if (enCasillaCastigo[jugadorActual]){
             if (estaSaliendoDeLaCarcel) {
                 boolean ganador = esGanador();
-
-                return ganador;
-            } else {
                 siguienteJugador();
-                return true;
+                return ganador;
+                
+            } else {
+                boolean ganador = esGanador();
+                siguienteJugador();
+                return ganador;
             }
 
 
         } else {
             boolean ganador = esGanador();
+            siguienteJugador();
             return ganador;
         }
     }
@@ -141,7 +144,6 @@ public class Game {
                 + monederos[jugadorActual]
                 + " monedas doradas.");
         boolean ganador = jugadorHaGanado();
-        siguienteJugador();
         return ganador;
     }
 
@@ -161,6 +163,6 @@ public class Game {
 
 
     private boolean jugadorHaGanado() {
-        return (monederos[jugadorActual] == 6);
+        return (monederos[jugadorActual] == 6) ;
     }
 }
