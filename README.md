@@ -20,3 +20,6 @@ He realizado una modificación en GameLauncher para invertir los datos de noGana
 ## Ejercicio 5
 ***
 He realizado una refactorización para extraer el código y generar un método al que se pueda llamar sin repetir líneas de código.
+## Ejercicio 6
+***
+He realizado una refactorización para extraer el código que se repite y generar un método. Creamos un booleano y lo igualamos a este método creado para devolverlo y no generar tanta línea de código.
