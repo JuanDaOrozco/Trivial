@@ -17,3 +17,6 @@ He hecho una unica modificacion en la clase game, en el metodo tirar dado, en el
 ## Ejercicio 4
 ***
 He realizado una modificación en GameLauncher para invertir los datos de noGanador a ganador e inicializarlo en false. En la clase game he modificado el método respuestaIncorrecta para que devuelva false en vez de true. Por último en el método jugadorHaGanado he invertido el return(quitando la exclamación) de tal forma que devuelve que el jugador ha ganado 6 monedas.
+## Ejercicio 5
+***
+He realizado una refactorización para extraer el código y generar un método al que se pueda llamar sin repetir líneas de código.
