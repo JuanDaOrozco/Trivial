@@ -134,7 +134,14 @@ public class Game {
     }
 
     private boolean esGanador() {
-        boolean ganador = esGanador();
+        System.out.println("Respuesta correcta!!!!");
+        monederos[jugadorActual]++;
+        System.out.println(jugadores.get(jugadorActual)
+                + " ahora tiene "
+                + monederos[jugadorActual]
+                + " monedas doradas.");
+        boolean ganador = jugadorHaGanado();
+        siguienteJugador();
         return ganador;
     }
 
