@@ -17,6 +17,7 @@ public class GameLauncher {
         juego.agregar("Antonio");
         juego.agregar("Sara");
         juego.agregar("Rafael");
+        juego.agregar("Yaiza");
 
 
 

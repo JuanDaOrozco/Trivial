@@ -9,7 +9,7 @@ He modificado el GameLauncher para que comience la partida solo si hay suficient
 
 ## Ejercicio 2
 ***
-He hecho modificaciones muy parecidas a las del ejercicio 1 en el game launcher y he creado un nuevo test para el maximo de jugadores, ademas de modificar la clase Game, el metodo esJugable para que compruebe tambien el maximo de jugadores.
+He hecho modificaciones muy parecidas a las del ejercicio 1 en el game launcher y he creado un nuevo test para el maximo de jugadores, ademas de modificar la clase Game, el metodo esJugable para que compruebe tambien el maximo de jugadores. Se ha corregido el error.
 
 ## Ejercicio 3
 ***
